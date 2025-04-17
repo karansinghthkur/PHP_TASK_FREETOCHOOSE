@@ -1,15 +1,15 @@
-# 📝 Task Manager — PHP + MariaDB (No Framework)
+# Task Manager — PHP + MariaDB (No Framework)
 
 A secure and user-friendly task management app built using core PHP and MariaDB, styled with Bootstrap 5. This app allows users to add tasks, view them in a list, mark them as completed, and delete them — all with proper validation, security, and clean UI.
 
 ---
 
-## ✅ Features Implemented
+##  Features Implemented
 
 - Add new tasks with **title**, **description**, and **due date**
 - View tasks sorted by due date (ascending)
-- Mark tasks as ✅ completed
-- Delete tasks with confirmation 🗑
+- Mark tasks as  completed
+- Delete tasks with confirmation 
 - Show message when no tasks exist
 - Prevent past due dates (server + client side)
 - Secure with PDO prepared statements (anti-SQL injection)
@@ -18,7 +18,7 @@ A secure and user-friendly task management app built using core PHP and MariaDB,
 
 ---
 
-## 💻 Tech Stack & Versions
+## Tech Stack & Versions
 
 | Component  | Version             |
 | ---------- | ------------------- |
@@ -31,7 +31,7 @@ A secure and user-friendly task management app built using core PHP and MariaDB,
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 task-manager/
@@ -47,7 +47,7 @@ task-manager/
 
 ---
 
-## 🧱 Installation Steps
+## Installation Steps
 
 ### 1. Start Apache & MariaDB
 
@@ -97,7 +97,7 @@ Visit these pages:
 
 ---
 
-## 🎨 UI Highlights (Bootstrap Styled)
+## UI Highlights (Bootstrap Styled)
 
 - Form controls with `.form-control` and labels
 - Error messages in Bootstrap `.alert-danger`
@@ -110,7 +110,7 @@ Visit these pages:
 
 ---
 
-## 🔐 Security Overview
+## Security Overview
 
 | Risk Area     | Mitigation Method                        |
 | ------------- | ---------------------------------------- |
@@ -121,21 +121,13 @@ Visit these pages:
 
 ---
 
-## 🧠 Assumptions
+## Assumptions
 
 - No login or user management (single-user, local tool)
 - Date format is `YYYY-MM-DD`
 - Deletion is permanent (no soft delete yet)
 - App is intended for learning/demo purposes
 
----
-
-## 📌 What’s Next? (Optional Features)
-
-- ✅ Toggle completed back to incomplete
-- ✏️ Edit/update task functionality
-- 🔍 Search or filter by title/date
-- 👤 User accounts and authentication
 
 ---
 
@@ -144,12 +136,5 @@ Visit these pages:
 **Karan Singh Thakur**  
 Passionate about building secure, full-stack applications with clean UIs and efficient code.  
 Ready for real-world challenges 💪
-
----
-
-## 📬 Submission Notes
-
-- 📁 Submit this project as a **ZIP file** or push it to a **private GitHub repo**
-- 📩 Share with the reviewer (`@shane-izzit`)
 
 Happy coding! 🎉
