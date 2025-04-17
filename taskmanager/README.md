@@ -120,7 +120,7 @@ Visit these pages:
 | SQL Injection | PDO prepared statements                  |
 | XSS Attacks   | Output escaped with `htmlspecialchars()` |
 | Past Dates    | Checked with PHP + `<input min="...">`   |
-| DB Failures   | Graceful error handling with `try/catch` |
+| DB Failures   | Error handling with `try/catch`          |
 
 ---
 
@@ -144,5 +144,8 @@ Happy coding! 🎉
 ![image](https://github.com/user-attachments/assets/9c095ce8-3891-4fef-a9e1-ca015e6f4273)
 
 ![image](https://github.com/user-attachments/assets/87c9e5c5-5f3f-4b92-a1d8-f2150162544a)
+
+![image](https://github.com/user-attachments/assets/f7d3f977-8f1f-454f-baac-490a1b9a6cb9)
+
 
 
