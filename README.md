@@ -22,7 +22,7 @@ A secure and user-friendly task management app built using core PHP and MariaDB 
 
 | Component  | Version             |
 | ---------- | ------------------- |
-| PHP        | 8.1.12              |
+| PHP        | 8.2.4             |
 | MariaDB    | 10.4.28             |
 | Bootstrap  | 5.3.0 (via CDN)     |
 | Web Server | Apache (via XAMPP)  |
@@ -115,7 +115,7 @@ Visit these pages:
 
 ## Security Overview
 
-| Risk Area     | Mitigation Method                        |
+| Risk Area     | Mitigation                       |
 | ------------- | ---------------------------------------- |
 | SQL Injection | PDO prepared statements                  |
 | XSS Attacks   | Output escaped with `htmlspecialchars()` |
