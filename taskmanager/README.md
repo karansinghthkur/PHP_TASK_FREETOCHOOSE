@@ -91,12 +91,12 @@ $pass = '';
 
 Place the project inside your web root:
 
-- For XAMPP on macOS: `/Applications/XAMPP/xamppfiles/htdocs/task-manager`
+- For XAMPP on macOS: `/Applications/XAMPP/xamppfiles/htdocs/`
 
 Visit these pages:
 
-- **Add Task**: `http://localhost/task-manager/add_task.php`
-- **View Tasks**: `http://localhost/task-manager/list_tasks.php`
+- **Add Task**: `http://localhost/taskmanager/add_task.php`
+- **View Tasks**: `http://localhost/taskmanager/list_tasks.php`
 
 ---
 
@@ -141,3 +141,5 @@ Passionate about building secure, full-stack applications with clean UIs and eff
 Ready for real-world challenges 💪
 
 Happy coding! 🎉
+![image](https://github.com/user-attachments/assets/9c095ce8-3891-4fef-a9e1-ca015e6f4273)
+
