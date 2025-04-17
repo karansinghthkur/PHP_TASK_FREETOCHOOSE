@@ -1,6 +1,6 @@
 # Task Manager — PHP + MariaDB (No Framework)
 
-A secure and user-friendly task management app built using core PHP and MariaDB, styled with Bootstrap 5. This app allows users to add tasks, view them in a list, mark them as completed, and delete them — all with proper validation, security, and clean UI.
+A secure and user-friendly task management app built using core PHP and MariaDB (No FrameWork), styled with Bootstrap 5. This app allows users to add tasks, view them in a list, mark them as completed, and delete them — all with proper validation, security, and clean UI.
 
 ---
 
@@ -8,9 +8,9 @@ A secure and user-friendly task management app built using core PHP and MariaDB,
 
 - Add new tasks with **title**, **description**, and **due date**
 - View tasks sorted by due date (ascending)
-- Mark tasks as  completed
-- Delete tasks with confirmation 
-- Show message when no tasks exist
+- Mark tasks as  completed - Additional Feature
+- Delete tasks with confirmation  - Additional Feature
+- Show message when no tasks exist -Additional Feature
 - Prevent past due dates (server + client side)
 - Secure with PDO prepared statements (anti-SQL injection)
 - Output escaped with `htmlspecialchars()` (anti-XSS)
@@ -61,17 +61,23 @@ task-manager/
 2. Import the following schema via SQL tab:
 
 ```sql
+CREATE DATABASE IF NOT EXISTS `task_db` 
+CHARACTER SET utf8mb4 
+COLLATE utf8mb4_general_ci;
+
 USE task_db;
 
-CREATE TABLE IF NOT EXISTS tasks (
-    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-    title VARCHAR(255) NOT NULL,
-    description TEXT NOT NULL,
-    due_date DATE NOT NULL,
-    completed TINYINT(1) NOT NULL DEFAULT 0,
-    INDEX idx_due_date (due_date)
+ CREATE TABLE IF NOT EXISTS tasks (
+          id INT AUTO_INCREMENT PRIMARY KEY,
+          title VARCHAR(255) NOT NULL,
+          description TEXT NOT NULL,
+          due_date DATE NOT NULL,
+          completed TINYINT(1) NOT NULL DEFAULT 0,
+          INDEX idx_due_date (due_date)
 );
 ```
+or 
+alternatively it will be automatically created with the config.php whenever you are adding the first task
 
 ### 3. Configure DB Connection
 
