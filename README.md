@@ -134,13 +134,10 @@ Visit these pages:
 
 ---
 
-## 👨‍💻 Developed By
+## Developed By
 
 **Karan Singh Thakur**  
-Passionate about building secure, full-stack applications with clean UIs and efficient code.  
-Ready for real-world challenges 💪
 
-Happy coding! 🎉
 ![image](https://github.com/user-attachments/assets/9c095ce8-3891-4fef-a9e1-ca015e6f4273)
 
 ![image](https://github.com/user-attachments/assets/87c9e5c5-5f3f-4b92-a1d8-f2150162544a)
