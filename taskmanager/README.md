@@ -61,9 +61,6 @@ task-manager/
 2. Import the following schema via SQL tab:
 
 ```sql
-CREATE DATABASE IF NOT EXISTS `task_db` 
-CHARACTER SET utf8mb4 
-COLLATE utf8mb4_general_ci;
 
 USE task_db;
 
